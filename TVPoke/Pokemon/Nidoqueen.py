@@ -6,7 +6,7 @@ class Golduck(Poison, Ground):
         moves = [
             Move("Earth Power", "GROUND", 40),
             Move("Sludge wave", "POISON", 40),
-            Move("Surf", "WATER", 80),
-            Move("Splash", "WATER", 0)
+            Move("Body slam", "NORMAL", 80),
+            Move("Rock slide", "NORMAL", 0)
         ]
         super().__init__("Golduck", 80, moves, "./TVPoke/Pokemon/imgs/Golduck.png")
